@@ -1,0 +1,57 @@
+.header>ul {
+	display: flex;
+	justify-content: space-around;
+	/* margin-top: 50px; */
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin: 0 10px;
+}
+.header_top {
+	overflow: hidden;
+	padding: 10px 15px;
+	text-align: center;
+	position: relative;
+}
+.header_top h1 {
+	font-size: 25px;
+}
+.header>ul>li {
+	flex: 1;
+	text-align: center;
+	/* background: red; */
+}
+.header>ul img {
+	display: inline-block;
+	width: 50%;
+	height: 25px;
+	background: pink;
+	border-radius: 14px;
+}
+/* 顶部三点盒子 */
+.header>ul li span {
+	display: inline-block;
+	box-sizing: border-box;
+	padding-top: 3px;
+	width: 50%;
+	height: 23px;
+	border-radius: 14px;
+	/* background: pink; */
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 5px;
+	border: 1px solid #999;
+}
+.qiehuan_box {
+	position: absolute;
+	z-index: 999;
+	top: 50px;
+	right: 5px;
+	background: #fff;
+	padding: 10px 20px;
+	border-radius: 7px;
+	display: none;
+	/* height: 100000px; */
+}
+.qiehuan_box li {
+	margin-top: 10px;
+}
