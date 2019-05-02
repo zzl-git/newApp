@@ -26,7 +26,7 @@
 	        <span class="mui-icon iconfont icon-guanzhu"></span>
 	        <span class="mui-tab-label">关注</span>
 	    </a>
-		<a class="mui-tab-item" href="">
+		<a class="mui-tab-item" href="html/gengduo.html">
 		    <span class="mui-icon iconfont icon-ren1"></span>
 		    <span class="mui-tab-label">更多</span>
 		</a>
@@ -38,7 +38,7 @@
 </script>
 <script  type="text/javascript">
 	//	底部选项卡开始
-			var subpages = ['html/shouye.html', 'html/zhibo.html', 'src/Shopping.html', 'src/personal.html'];
+			var subpages = ['html/shouye.html', 'html/zhibo.html', 'src/Shopping.html', 'src/personal.html','html/gengduo.html'];
 			var subpage_style = {
 				top: '0px',
 				bottom: '51px'
@@ -88,7 +88,7 @@
 			document.addEventListener('gohome', function() {
 				var defaultTab = document.getElementById("defaultTab");
 				//模拟首页点击
-				mui.trigger(defaultTab, 'tap');
+				mui.trigger(defaultTab,'tap');
 				//切换选项卡高亮
 				var current = document.querySelector(".mui-bar-tab>.mui-tab-item.mui-active");
 				if(defaultTab !== current) {

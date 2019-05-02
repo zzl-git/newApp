@@ -1,0 +1,57 @@
+header {
+	/* display: none !important; */
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin: -20px 20px 0 20px;
+	/* height: 10000px; */
+	/* background: red; */
+}
+
+.header h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.header p {
+	font-size: 10px;
+}
+.header img {
+	width: 80px;
+	height: 80px;
+	background: pink;
+	border-radius: 50%;
+}
+/* 好友 */
+.xiangqing {
+	margin: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.xiangqing ul {
+	display: flex;
+	justify-content: flex-start;
+}
+.xiangqing ul li {
+	width: 20%;
+}
+.xiangqing li P {
+	margin-top: 5px;
+}
+.fenlan {
+	margin: 0 15px;
+}
+
+.fenlan li {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	
+}
+.fenlan li p {
+	font-size: 10px;
+	/* vertical-align: 500px; */
+}
+.fenlan_left span {
+	vertical-align: -3px;
+	margin-right: 10px;
+}

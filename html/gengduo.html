@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/gengduo.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link href="../css/mui.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="display: none;">
+			<h1 class="mui-title">. 累</h1>
+		</header>
+		<div class="mui-scroll-wrapper mui-content">
+			<div class="mui-scroll">
+				<!-- 头像 -->
+				<div class="header">
+					<div class="header_left">
+						<h2>. 某</h2>
+						<p>查看或编辑个人资料</p>
+					</div>
+					<img src="#" >
+				</div>
+				<div class="xiangqing">
+					<ul>
+						<li>
+							<span>1</span>
+							<p>好友</p>
+						</li>
+						<li>
+							<span>1</span>
+							<p>关注</p>
+						</li>
+						<li>
+							<span>1</span>
+							<p>粉丝</p>
+						</li>
+						<li>
+							<span>1</span>
+							<p>群组</p>
+						</li>
+					</ul>
+				</div>
+				<!-- 分栏菜单 -->
+				<div class="fenlan">
+					<ul>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-primary mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p>发布你的第一条动态</p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-danger mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p>1</p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-warning mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p>普通用户</p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-royal mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-primary mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-danger mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-warning mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-royal mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-primary mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-danger mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-warning mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-badge-royal mui-badge-inverted mui-icon mui-icon-videocam"></span>
+								<small>我的动态</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-icon mui-icon-gear"></span>
+								<small>多账号切换</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-icon mui-icon-gear"></span>
+								<small>设置</small>
+							</div>
+							<p></p>
+						</li>
+						<li>
+							<div class="fenlan_left">
+								<span class="mui-icon mui-icon-gear"></span>
+								<small>扫一扫</small>
+							</div>
+							<p></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="../js/jquery-1.11.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mui.js"></script>
+		<script src="../js/gengduo.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init();
+			(function($) {
+				$(".mui-scroll-wrapper").scroll({
+					//bounce: false,//滚动条是否有弹力默认是true
+					//indicators: false, //是否显示滚动条,默认是true
+				});
+			})(mui);
+			window.addEventListener("dragstart",function(){
+				 $("header").show();
+				 $(".header").css('margin-top',20)
+			});
+		</script>
+	</body>
+
+</html>
