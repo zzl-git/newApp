@@ -1,0 +1,75 @@
+header ol{
+	display: flex !important;
+	justify-content: space-between !important;
+	height: 100%;
+	vertical-align: middle;
+	box-sizing: border-box;
+	/* padding-top: 15px; */
+	line-height: 1;
+	margin: 0 10px;
+}
+header ol li {
+	height: 40px;
+	/* background: pink; */
+	line-height: 40px;
+}
+header ol li span {
+	font-size: 30px !important;
+	display: inline-block;
+	/* margin-top: -7px !important; */
+}
+header ol li:nth-child(2){
+	font-size: 25px;
+	/* margin-top: -10px; */
+}
+/* 直播 */
+.zhibo_box {
+	display: flex;
+	justify-content:flex-start;
+	flex-wrap: wrap;
+	margin: 0 10px;
+}
+/* 选择主播类型 */
+.subNav {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.subNav span {
+	background: #ccc;
+	border-radius: 16px;
+	margin-right: 10px;
+	padding: 5px 20px;
+}
+.zhibo_box li{
+	width: 33.3%;
+	padding: 0 2px;
+	margin-top: 10px;
+}
+.zhibo_box li img{
+	width: 100%;
+	background: pink;
+	height: 100px;
+	border-radius: 16px;
+}
+.zhibo_box li h2 {
+	font-size: 12px;
+}
+.zhibo_box li h2 span {
+	font-size: 10px;
+}
+.zhibo_box li h2 span:nth-child(1){
+	background: #0062CC;
+	border-radius: 8px;
+	color: #fff;
+	padding: 0px 5px;
+	margin-right: 5px;
+}
+.zhibo_box li h2 span small {
+	font-size: 10px;
+	margin-left: 5px;
+}
+.zhibo_box li p {
+	font-size: 10px;
+}
