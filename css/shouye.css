@@ -47,11 +47,139 @@
 	top: 50px;
 	right: 5px;
 	background: #fff;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	border-radius: 7px;
 	display: none;
 	/* height: 100000px; */
+	/* width: 1px; */
+	text-align: center;
 }
 .qiehuan_box li {
 	margin-top: 10px;
+	/* width: 80%; */
+	margin: 0 auto;
+}
+/* 点击之后加号旋转 */
+.xuanzhuan {
+	transition: 0.2s;
+	transform: rotate(45deg);
+}
+/*  点击三点顶部出现全部选项 */
+.allBox_main {
+	position: absolute;
+	top: 0;
+	text-align: left;
+	display: none;
+}
+.allBox_main h2 {
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	background: #fff;
+}
+.allBox_main ul {
+	border-radius: 0 0 20px 20px;
+}
+/* 不消失子标题 */
+.subBiaoti {
+	padding: 10px 10px;
+	width: 100%;
+}
+.subBiaoti span:nth-child(1){
+	font-size: 20px;
+	font-weight: bold;
+}
+.subBiaoti p {
+	width: 100%;
+	position: relative;
+	}
+.subBiaoti p b {
+	position: absolute;
+	left: 32px;
+	width: 6px;
+	height: 3px;
+	background: #000000;
+	border-radius: 50%;
+	margin-top: 3px;
+}
+.subBiaoti span:nth-child(2){
+	margin: 0 15px;
+}
+/* 动态 */
+.mian {
+	margin: 10px 15px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.mian .mian_top{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.mian_top_left {
+	display: flex;
+	justify-content: space-between;
+}
+.mian_top_left img {
+		width: 35px;
+		height: 35px;
+		background: pink;
+		border-radius: 50%;
+		margin-right: 10px;
+}
+.mian_top_name {
+	text-align: left;
+}
+.mian_top_name span {
+	background: pink;
+	font-size: 14px;
+	color: #fff;
+	border-radius: 9px;
+	padding: 0px 5px;
+}
+.mian_top_right span {
+	font-size: 20px;
+}
+.mian_center h2{
+	padding: 5px 0;
+}
+.mian_centerImg {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.mian_centerImg img {
+	width: 35%;
+	background: pink;
+	height: 80px;
+	margin: 2px;
+}
+.mian> h3 {
+	display: inline-block;
+	background: #ccc;
+	/* width: 50px; */
+	padding: 2px 5px;
+	border-radius: 8px;
+	margin: 10px 0;
+}
+.mian> h3 span {
+	font-size: 10px;
+	color: #2AC845;
+}
+.mian> h3 span small {
+	color: #000;
+	margin-left: 5px;
+}
+/* 互动 */
+.mian_bot {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.mian_bot_left span{
+	margin-right: 5px;
+}
+.mian_bot_left span small {
+	font-size: 10px;
+	margin-left: 3px;
 }
